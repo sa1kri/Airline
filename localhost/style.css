@@ -1,0 +1,327 @@
+html, .body{
+    width: 100%;
+    
+}
+
+.Alfa{
+    background: linear-gradient(to bottom,#4d8fac,  #39738c, #2a6179);
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Menu {
+    background: white;
+    width: 75%;
+    height: 80px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logotip {
+    margin-top: 40px;
+
+    width: 40%;
+    height: 180px;
+    background-image: url(./img/LOS.jpg);
+    background-size: cover;  /* автоматическое масштабирование фото */
+    background-position: center; /* позиционирование фото по центру */
+    border-radius: 15px;
+   
+
+    color: white; /* изменение цвета текста, чтобы он был видимым на фоне // filter: blur(5px); */
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Redistr {
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Reg{
+    width: 49%;
+    height: 300px;
+    background: #77bfdf;
+    border-radius: 15px;
+}
+
+.TEXT_1{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login_php{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Users{
+    background: rgba(255, 255, 255, 0.811);
+    font-size: 15px;
+}
+
+.Users:hover {
+    box-shadow: 14px 4px 2px rgb(0, 140, 221);
+    opacity: 4;
+}
+
+.Users_Cnopca{
+    width: 90px;
+    height: 33px;
+    font-size: 20px;
+    background: #2a6179;
+    border-radius: 10px;
+}
+
+.images_redister{
+    width: 49%;
+    height: 300px;
+    background: #77bfdf;
+    border-radius: 15px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.LOGOTIP_FLY{
+    width: 80px;
+    height: 80px;
+}
+
+.Mebu_Block{
+    width: 60%;
+    height: 80px;
+}
+
+.Beta{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/fon.jpg);
+    background-size: cover;  /* автоматическое масштабирование фото */
+    background-position: center; /* позиционирование фото по центру */
+
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Mebu_Block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+}
+
+.TEXT_2 {
+    background: transparent;
+    margin-right: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.TEXT_2:hover{
+    box-shadow: 0px 4px 2px rgb(0, 140, 221);
+    opacity: 1;
+}
+
+.TEXT_3{
+    font-size: 35px;
+    color: black;
+    margin: none;
+}
+
+.img_logotip{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.Nazvanie{
+    width: 25%;
+    height: 80px;
+}
+
+.Beta_Osnova{
+    width: 80%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Osnova{
+    width: 90%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BOX_PILOT{
+    background: white;
+    width: 25%;
+    height: 450px;
+    border:1px solid black;
+    border-radius: 15px;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: auto;
+}
+
+.BOX_PILOT:hover{
+    box-shadow: 0px 4px 2px rgb(182, 182, 182);
+    opacity: 1;
+}
+
+.img_pilot{
+    width: 90%;
+    height: 180px;
+    background: #77bfdf;
+    margin-top: 10px;
+}
+
+.TEXT_4{
+    color: black;
+    font-size: 15px;
+    margin: -15px;
+}
+
+.TEXT_5{
+    color: black;
+    font-size: 15px;
+}
+
+.Gama{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Information{
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Information_TEXT{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Contakt {
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    background: rgb(156, 156, 156);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contakt_text{
+    width: 95%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.TEXT_6{
+    font-size: 20px;
+    background: rgba(82, 82, 82, 0.528);
+    width: 220px;
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.Inf_block {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Inf_block_text{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Inf_block_img {
+    width: 40%;
+}
