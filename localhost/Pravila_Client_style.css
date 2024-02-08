@@ -153,7 +153,7 @@ html, .body{
     flex-direction: column;
     align-items: center;
 
-    background-image: url(./img/fon.jpg);
+    background-image: url(./img/fon_2.jpg);
     background-size: cover;  /* автоматическое масштабирование фото */
     background-position: center; /* позиционирование фото по центру */
 }

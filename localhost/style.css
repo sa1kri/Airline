@@ -216,12 +216,6 @@ html, .body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    user-select: auto;
-}
-
-.BOX_PILOT:hover{
-    box-shadow: 0px 4px 2px rgb(182, 182, 182);
-    opacity: 1;
 }
 
 .img_pilot{
