@@ -204,7 +204,7 @@ html, .body{
 }
 
 .BOX_PILOT{
-    background: white;
+    background: rgba(255, 255, 255, 0.93);
     width: 25%;
     height: 450px;
     border:1px solid black;
@@ -228,7 +228,10 @@ html, .body{
 .TEXT_4{
     color: black;
     font-size: 15px;
-    margin: -15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .TEXT_5{

@@ -200,7 +200,7 @@ html, .body{
     background: rgb(229, 229, 229);
     border-radius: 20px;
 
-    width: 70%;
+    width: 55%;
     height:auto;
 
     display: flex;
@@ -209,7 +209,7 @@ html, .body{
 }
 
 .Reis{
-    width: 70%;
+    width: 98%;
     height: 100px;
     background: white;
     border-radius: 20px;

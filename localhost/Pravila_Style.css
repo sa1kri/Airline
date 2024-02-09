@@ -217,8 +217,13 @@ html, .body{
 }
 
 .Pechati_Kachestva {
-    width: 50%;
+    width: 90%;
     height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .Pechati_and_podpis {
@@ -229,5 +234,9 @@ html, .body{
 .Kachestva {
     width: 50%;
     height: 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 

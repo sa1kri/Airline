@@ -97,3 +97,24 @@ html, .body{
     flex-direction: row;
     align-items: center;
 }
+
+.Beta {
+    width: 100%;
+    height: auto;
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Beta_Osnova {
+    width: 60%;
+    height: 400px;
+
+    background: white;
+
+    border: 1px solid black;
+    border-radius: 15px;
+}
